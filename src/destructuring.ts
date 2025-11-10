@@ -44,3 +44,5 @@ const bestFriend = friends[0];
 const [, , myBestFriend] = friends;
 console.log(myBestFriend);
 //* ]
+
+
