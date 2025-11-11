@@ -16,7 +16,9 @@ type Coordiantes<X, Y> = [X, Y];
 const coordiantes1: Coordiantes<number, number> = [2, 4];
 const coordiantes2: Coordiantes<string, string> = ["2", "4"];
 
-const userList: GenericArray<{ name: string; age: number }> = [
+type User = { name: string; age: number }
+
+const userList: GenericArray<User> = [
   {
     name: "Mr. X",
     age: 22,
