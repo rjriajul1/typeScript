@@ -1,15 +1,40 @@
 "use strict";
 //* array, object
 Object.defineProperty(exports, "__esModule", { value: true });
-let bazarList = ['eggs', 'milk', 'sugar'];
+let bazarList = ["eggs", "milk", "sugar"];
 // bazarList.push(true)
-let mixedArray = ['eggs', 4, "milk", 1, "sugar", 2];
+let mixedArray = ["eggs", 4, "milk", 1, "sugar", 2];
 mixedArray.push(3);
-mixedArray.push('apple');
+mixedArray.push("apple");
 // mixedArray.push(true)
-let coordinates = [20, 30,];
-let coupe = ['Husband', 'wife'];
-let RiajulNameAndRoll = ['Riajul', 30];
+let coordinates = [20, 30];
+let coupe = ["Husband", "wife"];
+let RiajulNameAndRoll = ["Riajul", 30];
 // RiajulNameAndRoll[0] = 20
-let destination = ['Dhaka', 'Satkhira', 4];
+let destination = ["Dhaka", "Satkhira", 4];
+// reference = ojbect
+// const user: {
+//   orginzation: "Programming Hero"; //value => type literal types
+//   isMarried: Boolean;
+//   firstName: String;
+//   middleName?: String;
+//   lastName: String;
+// } = {
+//   firstName: "Riajul",
+//   // middleName: 'Karim',
+//   lastName: "Islam",
+//   isMarried: false,
+//   orginzation: "Programming Hero",
+// };
+// // user.orginzation = "Programming Hero Fire"
+// console.log(user);
+const user = {
+    firstName: "Riajul",
+    // middleName: 'Karim',
+    lastName: "Islam",
+    isMarried: false,
+    orginzation: "Programming Hero",
+};
+// user.orginzation = "Programming Hero Fire"
+console.log(user);
 //# sourceMappingURL=nonPrimitive.js.map
