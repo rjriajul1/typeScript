@@ -23,7 +23,7 @@ const student3 = {
     id: 235,
     name: 'Sunto',
     class: 'three',
-    dateOfBirth: '12/07/2020'
+    dateOfBirth: '12/07/20 20'
 };
 // const result6 = addStudentToCourse(student1)
 // console.log(result6);
