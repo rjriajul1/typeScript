@@ -1,7 +1,7 @@
 "use strict";
 // enum
-Object.defineProperty(exports, "__esModule", { value: true });
 // set of fixed string leteral ek jaigai rakhe
+Object.defineProperty(exports, "__esModule", { value: true });
 // type UserRole = "Admin" | "Editor" | "Viewer";
 var UserRoles;
 (function (UserRoles) {
