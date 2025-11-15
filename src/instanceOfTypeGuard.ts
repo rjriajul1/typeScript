@@ -36,10 +36,10 @@ class Teacher extends Person {
 //* function guard 
 
 const isStudent = (user: Person) => {
-    return user instanceof Student; // user is sutdent
+    return user instanceof Student; // user is sutdent 
 }
 const isTeacher = (user: Person) => {
-    return user instanceof Teacher;  // user is teacher
+    return user instanceof Teacher; // user is teacher 
 }
 const getUserInfo = (user: Person) => {
     if(isStudent(user)) {
