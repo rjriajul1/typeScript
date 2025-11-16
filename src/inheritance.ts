@@ -57,4 +57,4 @@ class Teacher extends Person
 }
 
 const teacher1 = new Teacher('Hossain', 30, 'dhaka', 'senior teacher')
-
+ 
