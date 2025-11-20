@@ -1,6 +1,19 @@
 {
     "cSpell.words": [
+        "bohu",
+        "eato",
+        "ghonta",
+        "Hossain",
         "Riajul",
+        "rupi",
         "Satkhira"
-    ]
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:typeScript}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }
