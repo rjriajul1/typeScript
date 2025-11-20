@@ -27,7 +27,7 @@ interface AppleWatch
 
 const poorDeveloper: Developer<BrandCharaWatch, {brand:'Yamaha', engineCapacity:'200cc'}> = {
     name: 'Mr. Poor',
-    salary: 20,
+    salary: 21,
     device:{
         brand: 'Lenovo',
         model: 'A21',

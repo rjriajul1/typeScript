@@ -42,3 +42,5 @@ RiajulBhaiAccount.addBalance = 100
 RiajulBhaiAccount.addBalance = 200
 console.log(RiajulBhaiAccount);
 console.log(RiajulBhaiAccount.getBalance);
+
+
